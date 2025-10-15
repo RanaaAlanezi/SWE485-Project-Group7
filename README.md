@@ -5,7 +5,7 @@
 - Ghaida Alharbi — 444201195
 - Nora Alyamni — 444200569
 - Lama Alhunayhin — 444200963
-- Nora Alangri — 444202998
+- Nora Alangari — 444202998
 
 ## Project Title
 Career Path Recommender System
