@@ -17,7 +17,7 @@ Our system recommends job titles based on users' current skills to support caree
 ## Dataset
 - **Source:** https://www.kaggle.com/datasets/batuhanmutlu/job-skill-set?resource=download
 - **Shape:** 1,167 × 5
-- **Main Fields:** `job_title`, `required_skills` (comma/semicolon-separated list), `category` (high-level job group), `description` (if available)
+- **Main Fields:** `job_title`, `required_skills` (comma-separated list), `category` (high-level job group), `description`
 - **Goal (Phase 1):** Explore relationships between skills and broader job **categories** to produce high-level insights and visualizations.
 - **Target (Phase 1):** `category` (predicting job category from text features in title/skills/description)
 
@@ -28,23 +28,5 @@ Our system recommends job titles based on users' current skills to support caree
 - **Later phases:** when building the actual **Career Path Recommender**, we will switch the target to **`job_title`** for fine-grained recommendations.
 
 ## Tools & Libraries
-Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn
-
-## Repo Structure
-
-SW485-Project-Group7/
-├─ Dataset/
-│  └─ jobs_dataset_raw.csv           # raw dataset (Original dataset downloaded from Kaggle)
-├─ Phase1_Data_Exploration.ipynb     # Phase 1 notebook
-└─ README.md
-
-## Phase 1 Deliverables
-- `/Dataset/jobs_dataset_raw.csv`
-- `/Dataset/jobs_dataset_clean.csv` (after preprocessing)
-- `Phase1_Data_Exploration.ipynb` containing:
-  - Dataset goal & source (with URL)
-  - General info (rows, features, dtypes, target description)
-  - Statistical summaries & visualizations
-  - Missing values analysis & class imbalance
-  - Preprocessing steps with clear justification for each decision
+Python, Jupyter Notebook, Pandas, NumPy, Matplotlib,
 
