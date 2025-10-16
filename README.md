@@ -28,5 +28,13 @@ Our system recommends job titles based on users' current skills to support caree
 - **Later phases:** when building the actual **Career Path Recommender**, we will switch the target to **`job_title`** for fine-grained recommendations.
 
 ## Tools & Libraries
-Python, Jupyter Notebook, Pandas, NumPy, Matplotlib,
+Python, Jupyter Notebook, Pandas, NumPy, Matplotlib, Seaborn
 
+## Repository Structure
+
+SW485-Project-Group7/
+│
+├── README.md
+├── Phase1_Data_Exploration.ipynb
+└── Dataset/
+    └── jobs_dataset_raw.csv
