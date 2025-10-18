@@ -32,8 +32,7 @@ Our system recommends job titles based on users' current skills to support caree
 ## Tools & Libraries
 Python, Jupyter Notebook, Pandas, Matplotlib
 
-##
-* Tools Assistance:
+Tools Assistance:
 ChatGPT was used to review Markdown formatting and suggest visualization styles.
 
 ## Repository Structure
