@@ -24,7 +24,9 @@ Students and graduates often struggle to connect their current skills with suita
 Our system recommends job titles based on users' current skills to support career decisions.
 
 ## Dataset
+- **Name:** Job Skill Set Dataset
 - **Source:** https://www.kaggle.com/datasets/batuhanmutlu/job-skill-set?resource=download
+- **Type:** Text
 - **Shape:** 1,167 × 5
 - **Main Fields:** `job_title`, `required_skills` (comma-separated list), `category` (high-level job group), `description`
 - **Goal (Phase 1):** Explore relationships between skills and broader job **categories** to produce high-level insights and visualizations.
