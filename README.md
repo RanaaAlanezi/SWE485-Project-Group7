@@ -2,10 +2,16 @@
 
 ## Team
 - Rana Alanezi (Leader) — 444201047
+ * Project Management, GitHub Setup, Final Review.
 - Ghaida Alharbi — 444201195
+ * Data Loading, General Stats, Final Review.
 - Nora Alyamni — 444200569
+ * Feature Engineering
 - Lama Alhunayhin — 444200963
+ * Visualizations
 - Nora Alangari — 444202998
+ * Documentation
+
 
 ## Project Title
 Career Path Recommender System
@@ -31,3 +37,6 @@ SW485-Project-Group7/
 ├── Phase1_Data_Exploration.ipynb
 └── Dataset/
     └── jobs_dataset_raw.csv
+
+Tools Assistance:
+- ChatGPT was used to review Markdown formatting and suggest visualization styles.
