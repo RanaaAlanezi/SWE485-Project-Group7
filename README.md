@@ -2,7 +2,8 @@
 
 ## Team
 * Rana Alanezi (Leader) — 444201047
- * Project Management, GitHub Setup, Final Review.
+  * Project Management, GitHub Setup, Final Review.
+  
 - Ghaida Alharbi — 444201195
  * Data Loading, General Stats, Final Review.
 - Nora Alyamni — 444200569
