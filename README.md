@@ -54,3 +54,23 @@ SW485-Project-Group7/
 │
 └── Supervised_Learning/
     └── Phase2_Supervised_Learning.ipynb
+
+## Phase 1 — Data Exploration
+# File: 
+Phase1_Data_Exploration.ipynb
+# Purpose:
+- Load and clean the dataset
+- Explore distributions of job categories and skills
+- Visualize trends using Seaborn (e.g., most frequent skills per job type)
+
+## Phase 2 — Supervised Learning
+# File: 
+Supervised_Learning/Phase2_Supervised_Learning.ipynb
+# Purpose:
+- Preprocess text data (combine title, skills, and description)
+- Split into training/testing sets
+- Train two models:
+- Multinomial Naive Bayes (MNB) — baseline model
+- Linear Support Vector Machine (SVM) — advanced model
+- Evaluate using accuracy, F1-score, confusion matrix, and cross-validation
+- Compare performance and interpret results
