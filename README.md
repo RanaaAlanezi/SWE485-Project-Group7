@@ -56,17 +56,15 @@ SW485-Project-Group7/
     └── Phase2_Supervised_Learning.ipynb
 
 ## Phase 1 — Data Exploration
-# File: 
-Phase1_Data_Exploration.ipynb
-# Purpose:
+**File** Phase1_Data_Exploration.ipynb
+**Purpose**
 - Load and clean the dataset
 - Explore distributions of job categories and skills
 - Visualize trends using Seaborn (e.g., most frequent skills per job type)
 
 ## Phase 2 — Supervised Learning
-# File: 
-Supervised_Learning/Phase2_Supervised_Learning.ipynb
-# Purpose:
+**File** Supervised_Learning/Phase2_Supervised_Learning.ipynb
+**Purpose**
 - Preprocess text data (combine title, skills, and description)
 - Split into training/testing sets
 - Train two models:
