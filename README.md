@@ -68,7 +68,7 @@ SW485-Project-Group7/
   * Preprocess text data (combine title, skills, and description)
   * Split into training/testing sets
   * Train two models:
-  * Multinomial Naive Bayes (MNB) — baseline model
-  * Linear Support Vector Machine (SVM) — advanced model
-  * Evaluate using accuracy, F1-score, confusion matrix, and cross-validation
+  * Multinomial Naive Bayes (MNB)
+  * Linear Support Vector Machine (SVM)
+  * Evaluate using Accuracy, Precision, Recall, F1-Score, Confusion Matrix, Cross-Validation, ROC-AUC Score
   * Compare performance and interpret results
