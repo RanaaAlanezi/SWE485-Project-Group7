@@ -3,18 +3,23 @@
 ## Team
 * Rana Alanezi (Leader) — 444201047
   * Project Management, GitHub Setup, Final Review.
+  * Implemented Model 1
 
 * Ghaida Alharbi — 444201195
   * Data Loading, General Stats, Final Review.
+  * Data Preparation
 
 * Nora Alyamni — 444200569
   * Feature Engineering
+  * Evaluation & Comparison
 
 * Lama Alhunayhin — 444200963
   * Visualizations
+  * Result interpretation
 
 * Nora Alangari — 444202998
   * Documentation
+  * Implemented Model 2
 
 ## Project Title
 Career Path Recommender System
@@ -32,17 +37,20 @@ Our system recommends job titles based on users' current skills to support caree
 - **Goal (Phase 1):** Explore relationships between skills and broader job **categories** to produce high-level insights and visualizations.
 
 ## Tools & Libraries
-Python, Jupyter Notebook, Pandas, Matplotlib
+Python, Jupyter Notebook, Pandas, Matplotlib, **Seaborn, Scikit-learn (sklearn)**
 
 Tools Assistance:
 ChatGPT was used to review Markdown formatting and suggest visualization styles.
 
-## Repository Structure
 
+## Repository Structure
 SW485-Project-Group7/
 │
 ├── README.md
 ├── Phase1_Data_Exploration.ipynb
-└── Dataset/
-    └── jobs_dataset_raw.csv
-
+│
+├── Dataset/
+│   └── jobs_dataset_raw.csv
+│
+└── Supervised_Learning/
+    └── Phase2_Supervised_Learning.ipynb
