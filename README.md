@@ -34,7 +34,6 @@ Our system recommends job titles based on users' current skills to support caree
 - **Type:** Text
 - **Shape:** 1,167 × 5
 - **Main Fields:** `job_title`, `required_skills` (comma-separated list), `category` (high-level job group), `description`
-- **Goal (Phase 1):** Explore relationships between skills and broader job **categories** to produce high-level insights and visualizations.
 
 ## Tools & Libraries
 Python, Jupyter Notebook, Pandas, Matplotlib, **Seaborn, Scikit-learn (sklearn)**
@@ -71,4 +70,4 @@ SW485-Project-Group7/
   * Multinomial Naive Bayes (MNB)
   * Linear Support Vector Machine (SVM)
   * Evaluate using Accuracy, Precision, Recall, F1-Score, Confusion Matrix, Cross-Validation, ROC-AUC Score
-  * Compare performance and interpret results
+  * Compare performance results
