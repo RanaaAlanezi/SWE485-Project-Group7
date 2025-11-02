@@ -56,7 +56,7 @@ SW485-Project-Group7/
 
 # HOW TO RUN
  1. Clone the project from GitHub:
-    git clone https://github.com/<username>/SW485-Project-Group7.git
+    git clone https://github.com/RanaaAlanezi/SWE485-Project-Group7
  2. Make sure Python is installed, then install the required libraries:
     pip install pandas matplotlib seaborn scikit-learn
  3. Open Jupyter Notebook:
