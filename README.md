@@ -54,6 +54,17 @@ SW485-Project-Group7/
 └── Supervised_Learning/
     └── Phase2_Supervised_Learning.ipynb
 
+# HOW TO RUN
+ 1. Clone the project from GitHub:
+    git clone https://github.com/<username>/SW485-Project-Group7.git
+ 2. Make sure Python is installed, then install the required libraries:
+    pip install pandas matplotlib seaborn scikit-learn
+ 3. Open Jupyter Notebook:
+    jupyter notebook
+ 4. Run the file Phase1_Data_Exploration.ipynb to clean and explore the dataset.
+ 5. Then open Phase2_Supervised_Learning.ipynb to train and test the models (Naive Bayes and SVM) and compare their results.
+ * All outputs and visualizations will be displayed inside the notebook cells.
+
 ## Phase 1 — Data Exploration
 * **File** Phase1_Data_Exploration.ipynb
 * **Purpose**
