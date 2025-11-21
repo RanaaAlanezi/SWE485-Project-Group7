@@ -9,10 +9,6 @@
   * Data Loading, General Stats, Final Review.
   * Data Preparation
 
-* Nora Alyamni — 444200569
-  * Feature Engineering
-  * Evaluation & Comparison
-
 * Lama Alhunayhin — 444200963
   * Visualizations
   * Result interpretation
@@ -53,17 +49,10 @@ SW485-Project-Group7/
 │
 └── Supervised_Learning/
     └── Phase2_Supervised_Learning.ipynb
-
-# HOW TO RUN
- 1. Clone the project from GitHub:
-    git clone https://github.com/RanaaAlanezi/SWE485-Project-Group7
- 2. Make sure Python is installed, then install the required libraries:
-    pip install pandas matplotlib seaborn scikit-learn
- 3. Open Jupyter Notebook:
-    jupyter notebook
- 4. Run the file Phase1_Data_Exploration.ipynb to clean and explore the dataset.
- 5. Then open Phase2_Supervised_Learning.ipynb to train and test the models (Naive Bayes and SVM) and compare their results.
- * All outputs and visualizations will be displayed inside the notebook cells.
+│
+└── Unsupervised_Learning/
+    └── Phase3_Unsupervised_Learning.ipynb
+  
 
 ## Phase 1 — Data Exploration
 * **File** Phase1_Data_Exploration.ipynb
@@ -82,3 +71,15 @@ SW485-Project-Group7/
   * Linear Support Vector Machine (SVM)
   * Evaluate using Accuracy, Precision, Recall, F1-Score, Confusion Matrix, Cross-Validation, ROC-AUC Score
   * Compare performance results
+
+## Phase 3 — Unsupervised Learning
+**File:** Unsupervised_Learning/Phase3_Unsupervised_Learning.ipynb
+* **Purpose**
+* Apply clustering to discover hidden IT sub-groups.
+* Remove class labels before clustering as required.
+* Build combined text feature (description + skills).
+* Generate TF-IDF features for clustering.
+* Use WCSS (Elbow Method) and Silhouette Score to select k.
+* Train K-Means and extract top keywords per cluster.
+* Evaluate clustering quality using BCubed Precision, Recall, F-Score.
+* Explain how clustering can enhance the supervised model.
