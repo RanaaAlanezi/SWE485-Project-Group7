@@ -13,7 +13,7 @@
   * Visualizations
   * Result interpretation
 
-* Noura Alyemni — 444202998
+* Noura Alyemni — 444200569
   * Documentation
   * Implemented Model 2
 
