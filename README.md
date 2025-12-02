@@ -32,7 +32,7 @@ Our system recommends job titles based on users' current skills to support caree
 - **Main Fields:** `job_title`, `required_skills` (comma-separated list), `category` (high-level job group), `description`
 
 ## Tools & Libraries
-Python, Jupyter Notebook, Pandas, Matplotlib, **Seaborn, Scikit-learn (sklearn)**
+Python, Jupyter Notebook, Pandas, Matplotlib, **Seaborn, Scikit-learn (sklearn)**, OpenAI API
 
 Tools Assistance:
 ChatGPT was used to review Markdown formatting and suggest visualization styles.
@@ -47,11 +47,13 @@ SW485-Project-Group7/
 ├── Dataset/
 │   └── jobs_dataset_raw.csv
 │
-└── Supervised_Learning/
-    └── Phase2_Supervised_Learning.ipynb
+├── Supervised_Learning/
+│   └── Phase2_Supervised_Learning.ipynb
 │
-└── Unsupervised_Learning/
-    └── Phase3_Unsupervised_Learning.ipynb
+├── Unsupervised_Learning/
+│   └── Phase3_Unsupervised_Learning.ipynb
+│
+└── Phase4_Generative_AI.ipynb
   
 
 ## Phase 1 — Data Exploration
@@ -83,3 +85,16 @@ SW485-Project-Group7/
 * Train K-Means and extract top keywords per cluster.
 * Evaluate clustering quality using BCubed Precision, Recall, F-Score.
 * Explain how clustering can enhance the supervised model.
+
+## Phase 4 — Generative AI
+* **File** Phase4_Generative_AI.ipynb
+* **Purpose**
+  * Enhance career recommendations with personalized AI-generated advice
+  * Use GPT to transform Phase 2 (category) and Phase 3 (cluster) outputs into clear career guidance
+  * Generate explanations for why the career path fits the user
+  * Identify missing skills needed for the recommended role
+  * Provide actionable learning plans with concrete steps
+  * Test and compare two prompt templates:
+  * Policy-Based Career Advisor (structured, formal approach)
+  * Conversational Mentor Approach (warm, personalized guidance)
+  * Evaluate template quality, detail level, and relevance to select the best approach
