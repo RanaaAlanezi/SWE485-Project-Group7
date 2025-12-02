@@ -13,7 +13,7 @@
   * Visualizations
   * Result interpretation
 
-* Nora Alangari — 444202998
+* Noura Alyemni — 444202998
   * Documentation
   * Implemented Model 2
 
